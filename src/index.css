@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.technology >li{
+  border: 2px solid #d9832e;
+  padding: 4px;
+  border-radius: 4px;
+}
+/* .menu-horizontal >li:hover{
+  background-color: #d9832e;
+} */
+/* .menu-horizontal li:hover{
+  background-color: #d9832e;
+} */
+.menu-horizontal li a:hover{
+  background-color: #d9832e;
+}
+.active{
+  background-color: #d9832e !important;
+}
